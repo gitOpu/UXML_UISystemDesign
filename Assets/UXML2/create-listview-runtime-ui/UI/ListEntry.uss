@@ -12,5 +12,5 @@
 #character-name {
     -unity-font-style: bold;
     font-size: 18px;
-    color: rgb(49, 26, 17);
+    color: rgb(0, 0, 255);
 }

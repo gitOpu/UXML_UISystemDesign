@@ -7,7 +7,7 @@
 
 #main-container {
     flex-direction: row;
-    height: 350px;
+    height: 550px;
 }
 
 #character-list {

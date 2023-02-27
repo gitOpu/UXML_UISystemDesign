@@ -1,7 +1,7 @@
-    using UnityEngine;
+using UnityEngine;
 
-    namespace UIToolkitExamples_18
-    {
+namespace UIToolkitExamples_18
+{
         
     public enum ECharacterClass
     {
@@ -15,4 +15,4 @@
         public ECharacterClass m_Class;
         public Sprite m_PortraitImage;
     }
-    }
+}
