@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement>
+        <ui:VisualElement style="width: 250px; height: 50px; background-color: rgba(255, 0, 0, 255); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; margin-left: auto; margin-right: auto; margin-top: 25px; margin-bottom: auto;">
+            <ui:Label text="CLICK ME!" display-tooltip-when-elided="true" style="height: 50px; width: 250px; justify-content: space-around; align-items: stretch; -unity-text-align: middle-center; -unity-font-style: bold; font-size: 25px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

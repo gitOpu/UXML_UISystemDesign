@@ -1,0 +1,19 @@
+Label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: crimson;
+    /* Style to wrap text of the label */
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+/* Style to wrap elements inside the scroll view */
+#scroll-view-wrap-example .unity-scroll-view__content-container {
+    flex-direction: row;
+    flex-wrap : wrap;
+}
+
+Button {
+    width: 200px;
+    height: 200px;
+}
