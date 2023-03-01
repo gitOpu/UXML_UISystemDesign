@@ -3,19 +3,19 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 [Serializable]
-public struct Health2
+public struct Health
 {
     public int armor;
     public int life;
 }
 
 [ExecuteInEditMode]
-public class DestructibleTankScript2 : MonoBehaviour
+public class DestructibleTankScript : MonoBehaviour
 {
     public string tankName = "Tank";
     public float tankSize = 1;
 
-    public Health2 health;
+    public Health health;
 
     private void Update()
     {

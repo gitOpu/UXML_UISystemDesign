@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UXML/_encapsulateUXML/Resources/CardElementUI.uss?fileID=7433441132597879392&amp;guid=593bcfb5828486d4a81f5f73436b1027&amp;type=3#CardElementUI" />
+    <CardElement>
+        <ui:VisualElement name="image" style="background-image: url(&apos;project://database/Assets/2dAssets/Characters/Artboard%202@2x.png?fileID=2800000&amp;guid=629db45b06321bc4f8cd35b0349a6c64&amp;type=3#Artboard 2@2x&apos;); height: 200px; width: 150px; margin-left: auto; margin-top: 50px; margin-right: auto;" />
+        <ui:VisualElement name="stats">
+            <ui:Label name="attack-badge" text="Attack " class="badge" style="-unity-text-align: upper-center; font-size: 20px; -unity-font-style: bold; width: 250px; height: 50px; margin-left: auto; margin-right: auto; color: rgb(0, 0, 0);" />
+            <ui:Label name="health-badge" text="Health" class="badge" style="-unity-text-align: upper-center; width: 250px; height: 30px; margin-left: auto; margin-right: auto; color: rgb(0, 0, 0);" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" class="button" />
+        </ui:VisualElement>
+    </CardElement>
+</ui:UXML>
