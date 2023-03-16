@@ -8,7 +8,7 @@ public class CardElement : VisualElement
     private string status;
 
     // Expose the custom control to UXML and UI Builder.
-    public new class UxmlFactory : UxmlFactory<CardElement, UxmlTraits> {}
+  public new class UxmlFactory : UxmlFactory<CardElement, UxmlTraits> {}
     public new class UxmlTraits : VisualElement.UxmlTraits
     {
         UxmlStringAttributeDescription m_Status = new UxmlStringAttributeDescription { name = "status" };
