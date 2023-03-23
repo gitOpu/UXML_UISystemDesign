@@ -1,18 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<UXML
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="UnityEngine.UIElements"
-        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
-        xsi:schemaLocation="UnityEngine.UIElements ../UIElementsSchema/UnityEngine.UIElements.xsd">
-
-    <Label text="Select something to remove from your suitcase:"/>
-    <Box>
-        <Toggle name="boots" label="Boots" value="false" />
-        <Toggle name="helmet" label="Helmet" value="false" />
-        <Toggle name="cloak" label="Cloak of invisibility" value="false"/>
-    </Box>
-    <Box>
-        <Button name="cancel" text="Cancel" />
-        <Button name="ok" text="OK" />
-    </Box>
-</UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UXML/_templates/ui/download.jpeg?fileID=2800000&amp;guid=caca5f585473812478daf4a34700e581&amp;type=3#download&apos;); margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; height: auto; position: absolute; flex-basis: auto; left: 0; top: 0; right: 0; bottom: 0; display: flex; border-left-color: rgb(219, 219, 219); border-right-color: rgb(219, 219, 219); border-top-color: rgb(219, 219, 219); border-bottom-color: rgb(219, 219, 219); border-left-width: 20px; border-right-width: 20px; border-top-width: 20px; border-bottom-width: 20px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;">
+        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UXML/_templates/ui/Logo.png?fileID=2800000&amp;guid=69d5708768f98af41ab2737cd1c622f0&amp;type=3#Logo&apos;); width: 350px; height: 450px; margin-left: auto; margin-right: auto; margin-top: 150px;" />
+    </ui:VisualElement>
+</ui:UXML>

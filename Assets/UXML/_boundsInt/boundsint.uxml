@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UXML/_boundsInt/boundsint.uss?fileID=7433441132597879392&amp;guid=24d2fa1a026e28d4cae865e0c088a7b9&amp;type=3#boundsint" />
+    <uie:Vector3IntField label="UXML Field" name="the-uxml-field" />
+</ui:UXML>
