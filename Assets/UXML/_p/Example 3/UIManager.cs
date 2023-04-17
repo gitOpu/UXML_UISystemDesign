@@ -17,10 +17,12 @@ public class UIManager : MonoBehaviour
     public void Start()
     {
         UIDocument document = GetComponent<UIDocument>();
+        var grid = document.rootVisualElement.Q<VisualElement>("Grid");
 
         // Load the UXML document that defines the hierarchy of CardElement.
         // It assumes the UXML file is placed at the "Resources" folder.
         VisualTreeAsset template = Resources.Load<VisualTreeAsset>("CardElement");
+        //StyleSheet styleSheet = Resources.Load<StyleSheet>("CardElementUI");
 
         // Create a loop to modify properties and perform interactions 
         // for each card.  It assumes that you have created a function 
@@ -32,9 +34,10 @@ public class UIManager : MonoBehaviour
 
             // Find the custom element inside the template container.
             var cardElement = templateContainer.Q<CardElement>();
-
+            
+             
             // Add the custom element into the scene.
-            document.rootVisualElement.Add(cardElement);
+            grid.Add(cardElement);
 
             // Initialize the card.
             cardElement.Init(card.image, card.health, card.attack);

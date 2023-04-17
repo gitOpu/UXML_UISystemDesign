@@ -1,7 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <ui:Template name="CardElement" src="Resources/CardElement.uxml"/>
-    <ui:Instance template="CardElement"/>
-    <ui:Instance template="CardElement"/>
-    <ui:Instance template="CardElement"/>
-  
-</ui:UXML>

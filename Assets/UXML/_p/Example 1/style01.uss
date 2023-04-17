@@ -1,0 +1,17 @@
+.cart {
+    border-left-color: rgba(38, 255, 0, 255);
+    border-right-color: rgba(38, 255, 0, 255);
+    border-top-color: rgba(38, 255, 0, 255);
+    border-bottom-color: rgba(38, 255, 0, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+#Cart {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

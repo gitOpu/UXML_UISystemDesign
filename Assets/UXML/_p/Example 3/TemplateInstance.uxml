@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="CardElement" src="project://database/Assets/UXML/_encapsulateUXML/Resources/CardElement.uxml?fileID=9197481963319205126&amp;guid=5cfaa73a0b772b94d8d1a7de3d464c25&amp;type=3#CardElement" />
+    <ui:VisualElement name="Grid" style="flex-direction: row; flex-wrap: wrap; justify-content: center;">
+        <ui:Instance template="CardElement" />
+        <ui:Instance template="CardElement" />
+        <ui:Instance template="CardElement" />
+    </ui:VisualElement>
+</ui:UXML>
