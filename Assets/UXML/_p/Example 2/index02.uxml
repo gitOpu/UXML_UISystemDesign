@@ -1,17 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Template name="Cart" src="project://database/Assets/UXML/_p/Cart.uxml?fileID=9197481963319205126&amp;guid=6fd36da704759964791cc5dc7c0913c4&amp;type=3#Cart" />
     <ui:VisualElement style="height: 120px;" />
     <ui:VisualElement>
         <ui:Label text="Grid" display-tooltip-when-elided="true" style="font-size: 131px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular%20SDF.asset?fileID=11400000&amp;guid=dbc67c2e1c095c34e8f3ce7f1f2970ed&amp;type=2#SedgwickAveDisplay-Regular SDF&apos;); -unity-text-align: upper-center; color: rgb(0, 250, 255);" />
     </ui:VisualElement>
-    <ui:VisualElement name="Grid" style="flex-direction: row; flex-wrap: wrap; justify-content: center;">
-        <ui:Instance template="Cart" name="Cart" />
-        <ui:Instance template="Cart" name="Cart" />
-        <ui:Instance template="Cart" name="Cart" />
-        <ui:Instance template="Cart" name="Cart" />
-        <ui:Instance template="Cart" name="Cart" />
-        <ui:Instance template="Cart" name="Cart" />
-        <ui:Instance template="Cart" name="Cart" />
-        <ui:Instance template="Cart" name="Cart" />
-    </ui:VisualElement>
+    <ui:VisualElement name="Grid" style="flex-direction: row; flex-wrap: wrap; justify-content: center;" />
 </ui:UXML>

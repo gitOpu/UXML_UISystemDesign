@@ -7,9 +7,8 @@ using UnityEngine.UIElements;
 public class Card
 {
     public Texture2D image;
+    public string name;
     public int health;
-    public int attack;
-
 }
 public class UIManager : MonoBehaviour
 {
@@ -17,36 +16,17 @@ public class UIManager : MonoBehaviour
     public void Start()
     {
         UIDocument document = GetComponent<UIDocument>();
-        var grid = document.rootVisualElement.Q<VisualElement>("Grid");
-
-        // Load the UXML document that defines the hierarchy of CardElement.
-        // It assumes the UXML file is placed at the "Resources" folder.
+        VisualElement grid = document.rootVisualElement.Q<VisualElement>("Grid");
         VisualTreeAsset template = Resources.Load<VisualTreeAsset>("CardElement");
-        //StyleSheet styleSheet = Resources.Load<StyleSheet>("CardElementUI");
-
-        // Create a loop to modify properties and perform interactions 
-        // for each card.  It assumes that you have created a function 
-        // called `GetCards()` to get all the cards in your game.
         foreach(Card card in Cards)
         {
-            // Instantiate a template container.
             var templateContainer = template.Instantiate();
-
-            // Find the custom element inside the template container.
             var cardElement = templateContainer.Q<CardElement>();
-            
-             
-            // Add the custom element into the scene.
-            grid.Add(cardElement);
-
-            // Initialize the card.
-            cardElement.Init(card.image, card.health, card.attack);
-
-            // Register an event callback for additional interaction.
-            cardElement.RegisterCallback<ClickEvent>(SomeInteraction);
+            cardElement.Init(card.image, card.name, card.health);
+            cardElement.Q<Button>("btn_unlock").RegisterCallback<ClickEvent>(SomeInteraction);
+            grid.Add(templateContainer);
         }
     }
-
     private void SomeInteraction(ClickEvent evt)
     {
       Debug.Log($"SomeInteraction {evt.button.ToString()}");

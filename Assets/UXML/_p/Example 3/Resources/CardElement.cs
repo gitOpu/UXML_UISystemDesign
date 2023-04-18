@@ -26,16 +26,16 @@ public class CardElement : VisualElement
         }
     }
     private VisualElement portraitImage => this.Q("image");
-    private Label attackBadge => this.Q<Label>("attack-badge");
+    private Label nameBadge => this.Q<Label>("name-badge");
     private Label healthBadge => this.Q<Label>("health-badge");
 
     // Use the Init() approach instead of a constructor because 
     // we don't have children yet.
-    public void Init(Texture2D image, int health, int attack)
+    public void Init(Texture2D image, string name, int health)
     {
         portraitImage.style.backgroundImage = image;
-        attackBadge.text = $"{attack}";
-        healthBadge.text = $"{health}";
+        nameBadge.text = $"{name}";
+        healthBadge.text = $"HEALTH {health}";
     }
 
     // Custom controls need a default constructor. 

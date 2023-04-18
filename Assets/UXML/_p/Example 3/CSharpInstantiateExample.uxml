@@ -1,4 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/UXML/_p/Example%203/Resources/CardElementUI.uss?fileID=7433441132597879392&amp;guid=593bcfb5828486d4a81f5f73436b1027&amp;type=3#CardElementUI" />
-    <ui:VisualElement name="Grid" style="flex-direction: row; flex-wrap: wrap; justify-content: center;" />
+    <ui:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="margin-top: 150px; margin-bottom: 150px;">
+        <ui:VisualElement name="Grid" style="flex-direction: row; flex-wrap: wrap; justify-content: center;" />
+    </ui:ScrollView>
 </ui:UXML>
